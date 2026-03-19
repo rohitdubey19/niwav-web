@@ -1,0 +1,19 @@
+project:
+  name: niwav
+  display_name: "Niwav — Technology Company"
+  architecture: static
+  industry: technology
+
+services:
+  niwav-web:
+    port: 3000
+    stage: s2a
+    build_context: ./s2a/web
+    health_check: /
+
+stages_used: [s2a]
+
+dev:
+  hot_reload: true
+  source_mounts:
+    niwav-web: ./s2a/web:/app
