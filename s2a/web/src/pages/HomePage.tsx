@@ -132,7 +132,7 @@ const HomePage = () => {
           <div className="max-w-3xl">
             <div className="inline-flex items-center gap-2 bg-white border border-gray-200 rounded-full px-4 py-1.5 mb-6 shadow-sm">
               <span className="w-2 h-2 bg-emerald-500 rounded-full animate-pulse" />
-              <span className="text-sm text-gray-600">Proprietorship based in India</span>
+              <span className="text-sm text-gray-600">Proprietorship based in India · incorporation in progress</span>
             </div>
 
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold text-gray-900 tracking-tight leading-[1.1]">
@@ -475,7 +475,7 @@ const HomePage = () => {
               &copy; {new Date().getFullYear()} Niwav. All rights reserved.
             </p>
             <p className="text-xs text-gray-600">
-              Proprietorship &middot; India
+              Proprietorship (incorporation as a private limited company in progress) &middot; India
             </p>
           </div>
         </div>

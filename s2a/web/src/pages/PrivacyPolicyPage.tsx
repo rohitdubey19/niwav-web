@@ -19,7 +19,7 @@ const PrivacyPolicyPage = () => {
           <div className="prose prose-gray max-w-none text-sm leading-relaxed space-y-6">
             <section>
               <h2 className="text-lg font-semibold text-gray-900 mt-6 mb-3">1. Introduction</h2>
-              <p>Niwav ("we", "us", "our") is a proprietorship based in India. This Privacy Policy explains how we collect, use, and protect your personal information when you visit niwav.in or use any of our products and services.</p>
+              <p>Niwav ("we", "us", "our") is a proprietorship based in India; its incorporation as a private limited company is in progress. This Privacy Policy explains how we collect, use, and protect your personal information when you visit niwav.in or use any of our products and services.</p>
               <p>We comply with the Information Technology Act, 2000 and the Digital Personal Data Protection Act, 2023 (DPDPA) of India.</p>
             </section>
 

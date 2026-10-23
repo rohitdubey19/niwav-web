@@ -24,7 +24,7 @@ const TermsOfServicePage = () => {
 
             <section>
               <h2 className="text-lg font-semibold text-gray-900 mt-6 mb-3">2. About Niwav</h2>
-              <p>Niwav is a proprietorship based in India, offering:</p>
+              <p>Niwav is a proprietorship based in India, offering the services below. Its incorporation as a private limited company is in progress.</p>
               <ul className="list-disc pl-6 space-y-1">
                 <li><strong>Technology products:</strong> FinAsor (AI algo trading), CyPhyS (product lifecycle platform)</li>
                 <li><strong>Technology partner products:</strong> Products built and maintained for partner companies</li>
