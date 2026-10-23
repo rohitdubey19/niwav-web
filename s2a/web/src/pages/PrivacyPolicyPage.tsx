@@ -14,7 +14,7 @@ const PrivacyPolicyPage = () => {
             <Shield className="w-8 h-8 text-blue-600" />
             <h1 className="text-3xl font-bold text-gray-900">Privacy Policy</h1>
           </div>
-          <p className="text-sm text-gray-500 mb-8">Last updated: March 18, 2026</p>
+          <p className="text-sm text-gray-500 mb-8">Last updated: October 23, 2026</p>
 
           <div className="prose prose-gray max-w-none text-sm leading-relaxed space-y-6">
             <section>
@@ -28,7 +28,7 @@ const PrivacyPolicyPage = () => {
               <p>This policy covers the Niwav corporate website (niwav.in). Our individual products have their own privacy policies:</p>
               <ul className="list-disc pl-6 space-y-1">
                 <li><strong>FinAsor:</strong> <a href="https://finasor.niwav.in/privacy" className="text-blue-600 hover:underline">finasor.niwav.in/privacy</a></li>
-                <li><strong>CyPhyS:</strong> <a href="https://scpro.niwav.in" className="text-blue-600 hover:underline">scpro.niwav.in</a></li>
+                <li><strong>CyPhyS:</strong> <a href="https://cyphys.niwav.in" className="text-blue-600 hover:underline">cyphys.niwav.in</a></li>
                 <li><strong>LeapKnowlogy MES:</strong> <a href="https://mes.niwav.in" className="text-blue-600 hover:underline">mes.niwav.in</a></li>
               </ul>
             </section>
@@ -89,6 +89,16 @@ const PrivacyPolicyPage = () => {
                 <strong>Niwav</strong><br />
                 Email: <a href="mailto:privacy@niwav.in" className="text-blue-600 hover:underline">privacy@niwav.in</a><br />
                 India
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-lg font-semibold text-gray-900 mt-6 mb-3">10. Grievance Officer</h2>
+              <p>For any grievance about how we process your personal data, including under the Digital Personal Data Protection Act, 2023, contact our Grievance Officer:</p>
+              <p className="mt-2">
+                {/* TODO(Rohit): replace the name and email placeholders before merge. */}
+                Grievance Officer: [NAME]<br />
+                Email: <a href="mailto:[EMAIL]" className="text-blue-600 hover:underline">[EMAIL]</a>
               </p>
             </section>
           </div>

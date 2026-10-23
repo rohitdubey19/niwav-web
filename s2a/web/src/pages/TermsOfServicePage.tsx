@@ -14,7 +14,7 @@ const TermsOfServicePage = () => {
             <FileText className="w-8 h-8 text-violet-600" />
             <h1 className="text-3xl font-bold text-gray-900">Terms of Service</h1>
           </div>
-          <p className="text-sm text-gray-500 mb-8">Last updated: March 18, 2026</p>
+          <p className="text-sm text-gray-500 mb-8">Last updated: October 23, 2026</p>
 
           <div className="prose prose-gray max-w-none text-sm leading-relaxed space-y-6">
             <section>
@@ -101,6 +101,16 @@ const TermsOfServicePage = () => {
                 <strong>Niwav</strong><br />
                 Email: <a href="mailto:legal@niwav.in" className="text-blue-600 hover:underline">legal@niwav.in</a><br />
                 India
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-lg font-semibold text-gray-900 mt-6 mb-3">10. Grievance Officer</h2>
+              <p>For any grievance about our website, products or services, contact our Grievance Officer:</p>
+              <p className="mt-2">
+                {/* TODO(Rohit): replace the name and email placeholders before merge. */}
+                Grievance Officer: [NAME]<br />
+                Email: <a href="mailto:[EMAIL]" className="text-blue-600 hover:underline">[EMAIL]</a>
               </p>
             </section>
           </div>
