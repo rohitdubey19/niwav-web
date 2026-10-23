@@ -11,16 +11,16 @@ const products = [
   {
     name: 'FinAsor',
     tagline: 'AI-Powered Algo Trading',
-    description: 'Autonomous trading platform for Indian markets. AI ensemble predictions, multi-broker execution, algorithmic marketplace — all with walk-forward validated models.',
+    description: 'AI-assisted trading platform for Indian markets, built on walk-forward validated models. In private beta by invitation only; not offered to the public.',
     category: 'Fintech',
     icon: TrendingUp,
     color: 'from-violet-600 to-purple-600',
     bgLight: 'bg-violet-50',
     iconColor: 'text-violet-600',
     borderColor: 'border-violet-200',
-    features: ['AI Ensemble Predictions', 'Autonomous Execution', 'Algo Marketplace', 'Multi-Broker'],
+    features: ['AI Ensemble Predictions'],
     url: 'https://finasor.niwav.in',
-    status: 'Live',
+    status: 'Private beta, invite only',
   },
   {
     name: 'CyPhyS',
@@ -33,7 +33,7 @@ const products = [
     iconColor: 'text-blue-600',
     borderColor: 'border-blue-200',
     features: ['Product Lifecycle', 'AI Pipeline Agent', 'Template Marketplace', 'Self-Service'],
-    url: 'https://scpro.niwav.in',
+    url: 'https://cyphys.niwav.in',
     status: 'Live',
   },
 ];
@@ -444,7 +444,7 @@ const HomePage = () => {
               <h4 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">Products</h4>
               <ul className="space-y-2">
                 <li><a href="https://finasor.niwav.in" className="text-sm hover:text-white transition-colors">FinAsor</a></li>
-                <li><a href="https://scpro.niwav.in" className="text-sm hover:text-white transition-colors">CyPhyS</a></li>
+                <li><a href="https://cyphys.niwav.in" className="text-sm hover:text-white transition-colors">CyPhyS</a></li>
                 <li><a href="https://mes.niwav.in" className="text-sm hover:text-white transition-colors">LeapKnowlogy MES</a></li>
               </ul>
             </div>
