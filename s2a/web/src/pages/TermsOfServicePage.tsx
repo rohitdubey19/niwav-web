@@ -108,9 +108,8 @@ const TermsOfServicePage = () => {
               <h2 className="text-lg font-semibold text-gray-900 mt-6 mb-3">10. Grievance Officer</h2>
               <p>For any grievance about our website, products or services, contact our Grievance Officer:</p>
               <p className="mt-2">
-                {/* TODO(Rohit): replace the name and email placeholders before merge. */}
-                Grievance Officer: [NAME]<br />
-                Email: <a href="mailto:[EMAIL]" className="text-blue-600 hover:underline">[EMAIL]</a>
+                Grievance Officer: Rohit Dubey<br />
+                Email: <a href="mailto:dubey.rohit@gmail.com" className="text-blue-600 hover:underline">dubey.rohit@gmail.com</a>
               </p>
             </section>
           </div>
