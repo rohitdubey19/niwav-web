@@ -1,0 +1,20 @@
+# CyPhyS project manifest: what a CyPhyS dev instance runs for this repo.
+# One service, the Vite dev server on s2a/web. No database: the site has none.
+project:
+  name: niwav-web
+  architecture: saas
+
+services:
+  web:
+    port_offset: 0
+    internal_port: 80
+    is_ui: true
+
+dev:
+  web:
+    image: node:20-alpine
+    working_dir: /app
+    mounts:
+      - src: s2a/web
+        dest: /app
+    command: ["sh", "/opt/cyphys/dev-web-startup.sh"]
