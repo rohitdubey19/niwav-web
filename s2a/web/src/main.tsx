@@ -8,6 +8,7 @@ import LabPage from './pages/LabPage'
 import Lab2Page from './pages/Lab2Page'
 import Lab3Page from './pages/Lab3Page'
 import Lab4Page from './pages/Lab4Page'
+import Lab5Page from './pages/Lab5Page'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
@@ -21,6 +22,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Route path="/lab2" element={<Lab2Page />} />
         <Route path="/lab3" element={<Lab3Page />} />
         <Route path="/lab4" element={<Lab4Page />} />
+        <Route path="/lab5" element={<Lab5Page />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
